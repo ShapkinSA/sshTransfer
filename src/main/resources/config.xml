@@ -1,0 +1,13 @@
+<cfg>
+    <!--При копировании папки будет создана дикектория с вложенными файлами -->
+    <!--При копировании отдельного файла директория не будет создаваться. Файл будет размещён по заданному пути -->
+    <toRemoteMachine>
+        <item username="ric29" ip="192.168.1.97" password="iloverza0" portSSH="22"  pathToFilesOnRemoteMachine = "/home/ric29/CLionProjects/" pathToFilesOnMainMachine = "C:\Users\Dimeb\Desktop\TestUDP\" />
+    </toRemoteMachine>
+
+
+    <fromRemoteMachine>
+        <item username="ric29" ip="192.168.1.97" password="iloverza0" portSSH="22"  pathToFilesOnRemoteMachine = "/home/ric29/CLionProjects" pathToFilesOnMainMachine = "D:\Sobjectizer_lectures\filesFromVM" />
+    </fromRemoteMachine>
+
+</cfg>
